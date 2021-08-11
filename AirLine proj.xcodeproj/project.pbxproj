@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,20 +12,30 @@
 		6E113AC026BA6A61004BF7E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E113ABF26BA6A61004BF7E2 /* ViewController.swift */; };
 		6E113AC326BA6A61004BF7E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E113AC126BA6A61004BF7E2 /* Main.storyboard */; };
 		6E113AC626BA6A61004BF7E2 /* AirLine_proj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E113AC426BA6A61004BF7E2 /* AirLine_proj.xcdatamodeld */; };
-		6E113AC826BA6A63004BF7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E113AC726BA6A63004BF7E2 /* Assets.xcassets */; };
 		6E113ACB26BA6A63004BF7E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E113AC926BA6A63004BF7E2 /* LaunchScreen.storyboard */; };
+		6E113AD326BA6B7F004BF7E2 /* Assets.xcassets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E113AD226BA6B7F004BF7E2 /* Assets.xcassets.xcassets */; };
+		6E113AD526BA739B004BF7E2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E113AD426BA739B004BF7E2 /* TableViewCell.swift */; };
+		6E113AD726BA7BE5004BF7E2 /* DPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E113AD626BA7BE5004BF7E2 /* DPViewController.swift */; };
+		6E9E02D226C26AB90012B362 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9E02D126C26AB90012B362 /* APIHelper.swift */; };
+		907E968B27511780FAC4C46B /* Pods_AirLine_proj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834924EF1968BF9C6FD642EC /* Pods_AirLine_proj.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		296326B7AB88B64FF221CB24 /* Pods-AirLine proj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirLine proj.release.xcconfig"; path = "Target Support Files/Pods-AirLine proj/Pods-AirLine proj.release.xcconfig"; sourceTree = "<group>"; };
+		2AF6C3598D999F6ADFE033C3 /* Pods-AirLine proj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirLine proj.debug.xcconfig"; path = "Target Support Files/Pods-AirLine proj/Pods-AirLine proj.debug.xcconfig"; sourceTree = "<group>"; };
 		6E113AB826BA6A61004BF7E2 /* AirLine proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirLine proj.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E113ABB26BA6A61004BF7E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E113ABD26BA6A61004BF7E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6E113ABF26BA6A61004BF7E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E113AC226BA6A61004BF7E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E113AC526BA6A61004BF7E2 /* AirLine_proj.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirLine_proj.xcdatamodel; sourceTree = "<group>"; };
-		6E113AC726BA6A63004BF7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E113ACA26BA6A63004BF7E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E113ACC26BA6A63004BF7E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E113AD226BA6B7F004BF7E2 /* Assets.xcassets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets.xcassets; path = ../../../../.Trash/Assets.xcassets.xcassets; sourceTree = "<group>"; };
+		6E113AD426BA739B004BF7E2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		6E113AD626BA7BE5004BF7E2 /* DPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPViewController.swift; sourceTree = "<group>"; };
+		6E9E02D126C26AB90012B362 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		834924EF1968BF9C6FD642EC /* Pods_AirLine_proj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirLine_proj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				907E968B27511780FAC4C46B /* Pods_AirLine_proj.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		147B842F2245370F7DE59AE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				834924EF1968BF9C6FD642EC /* Pods_AirLine_proj.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		622CBD285D61706588BD4044 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AF6C3598D999F6ADFE033C3 /* Pods-AirLine proj.debug.xcconfig */,
+				296326B7AB88B64FF221CB24 /* Pods-AirLine proj.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6E113AAF26BA6A61004BF7E2 = {
 			isa = PBXGroup;
 			children = (
 				6E113ABA26BA6A61004BF7E2 /* AirLine proj */,
 				6E113AB926BA6A61004BF7E2 /* Products */,
+				622CBD285D61706588BD4044 /* Pods */,
+				147B842F2245370F7DE59AE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,10 +92,13 @@
 				6E113ABD26BA6A61004BF7E2 /* SceneDelegate.swift */,
 				6E113ABF26BA6A61004BF7E2 /* ViewController.swift */,
 				6E113AC126BA6A61004BF7E2 /* Main.storyboard */,
-				6E113AC726BA6A63004BF7E2 /* Assets.xcassets */,
+				6E113AD626BA7BE5004BF7E2 /* DPViewController.swift */,
+				6E113AD426BA739B004BF7E2 /* TableViewCell.swift */,
 				6E113AC926BA6A63004BF7E2 /* LaunchScreen.storyboard */,
+				6E113AD226BA6B7F004BF7E2 /* Assets.xcassets.xcassets */,
 				6E113ACC26BA6A63004BF7E2 /* Info.plist */,
 				6E113AC426BA6A61004BF7E2 /* AirLine_proj.xcdatamodeld */,
+				6E9E02D126C26AB90012B362 /* APIHelper.swift */,
 			);
 			path = "AirLine proj";
 			sourceTree = "<group>";
@@ -77,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E113ACF26BA6A63004BF7E2 /* Build configuration list for PBXNativeTarget "AirLine proj" */;
 			buildPhases = (
+				54EBB59D77E4B5FFB790019E /* [CP] Check Pods Manifest.lock */,
 				6E113AB426BA6A61004BF7E2 /* Sources */,
 				6E113AB526BA6A61004BF7E2 /* Frameworks */,
 				6E113AB626BA6A61004BF7E2 /* Resources */,
+				AB3A8EC253FE959A9DC99AEE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,21 +163,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E113ACB26BA6A63004BF7E2 /* LaunchScreen.storyboard in Resources */,
-				6E113AC826BA6A63004BF7E2 /* Assets.xcassets in Resources */,
 				6E113AC326BA6A61004BF7E2 /* Main.storyboard in Resources */,
+				6E113AD326BA6B7F004BF7E2 /* Assets.xcassets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54EBB59D77E4B5FFB790019E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirLine proj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB3A8EC253FE959A9DC99AEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirLine proj/Pods-AirLine proj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirLine proj/Pods-AirLine proj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirLine proj/Pods-AirLine proj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6E113AB426BA6A61004BF7E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9E02D226C26AB90012B362 /* APIHelper.swift in Sources */,
+				6E113AD526BA739B004BF7E2 /* TableViewCell.swift in Sources */,
 				6E113AC026BA6A61004BF7E2 /* ViewController.swift in Sources */,
 				6E113ABC26BA6A61004BF7E2 /* AppDelegate.swift in Sources */,
 				6E113ABE26BA6A61004BF7E2 /* SceneDelegate.swift in Sources */,
+				6E113AD726BA7BE5004BF7E2 /* DPViewController.swift in Sources */,
 				6E113AC626BA6A61004BF7E2 /* AirLine_proj.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +367,7 @@
 		};
 		6E113AD026BA6A63004BF7E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF6C3598D999F6ADFE033C3 /* Pods-AirLine proj.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +387,7 @@
 		};
 		6E113AD126BA6A63004BF7E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296326B7AB88B64FF221CB24 /* Pods-AirLine proj.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
